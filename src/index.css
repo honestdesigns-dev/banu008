@@ -120,6 +120,31 @@ body {
   align-items: center;
 }
 
+.btn-nav-hire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 24px;
+  border-radius: 9999px;
+  border: 1.5px solid var(--color-border);
+  background-color: var(--color-border);
+  color: var(--color-bg-canvas);
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.btn-nav-hire:hover {
+  background-color: transparent;
+  color: var(--color-text-main);
+}
+
 /* Section Common Styling */
 .section-wrapper {
   padding: 80px 0;

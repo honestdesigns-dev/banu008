@@ -280,8 +280,9 @@ export default function Home() {
                     HEADER NAVBAR
                     ========================================== */}
                 <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-                    <a href="#hero" className="logo">PROJECT <span className="logo-dot"></span></a>
+                    <a href="#hero" className="logo">SHOWCASE <span className="logo-dot"></span></a>
                     <div className="nav-actions">
+                        <a href="mailto:shaliyabanuk@gmail.com" className="btn-nav-hire">Hire</a>
                         <button onClick={() => setShowMenuModal(true)} className="btn-circle" aria-label="Open navigation menu">
                             <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 1H18M0 6H18M0 11H18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
@@ -301,7 +302,7 @@ export default function Home() {
                             <span className="highlight-box bg-blue" style={{ transform: 'rotate(1deg)', display: 'inline-block', marginTop: '8px' }}>DIGITAL WORLD</span>
                         </h1>
                         <p className="hero-tagline">
-                            Hi, I'm <span style={{ fontWeight: 'bold' }}>Project</span>, an <strong>AngularJS & Frontend Developer</strong> based in Chennai. I craft modern, responsive Single Page Applications and help teams transition legacy frontends to ReactJS ecosystems.
+                            Hi, I'm <span style={{ fontWeight: 'bold' }}>ShaliyaBanu</span>, an <strong>AngularJS & Frontend Developer</strong> based in Chennai. I craft modern, responsive Single Page Applications and help teams transition legacy frontends to ReactJS ecosystems.
                         </p>
 
                         <div className="hero-ctas">
