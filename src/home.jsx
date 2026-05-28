@@ -306,7 +306,7 @@ export default function Home() {
                         </p>
 
                         <div className="hero-ctas">
-                            <a href={scvPdf} download="SCV.pdf" className="btn-outline">Download SCV</a>
+                            <a href={scvPdf} download="ShaliyaBanu_CV.pdf" className="btn-outline">Download CV</a>
                         </div>
 
                         <div>
