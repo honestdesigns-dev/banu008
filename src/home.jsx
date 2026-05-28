@@ -280,7 +280,7 @@ export default function Home() {
                     HEADER NAVBAR
                     ========================================== */}
                 <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-                    <a href="#hero" className="logo">SHOWCASE <span className="logo-dot"></span></a>
+                    <a href="#hero" className="logo">SHALIYA <span className="logo-dot"></span></a>
                     <div className="nav-actions">
                         <a href="mailto:shaliyabanuk@gmail.com" className="btn-nav-hire">Hire</a>
                         <button onClick={() => setShowMenuModal(true)} className="btn-circle" aria-label="Open navigation menu">
